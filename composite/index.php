@@ -25,7 +25,7 @@ class Products extends Composite
 {
     public function getData(): string
     {
-        return "Here is: " . $this->getName();
+        return "Here is: {$this->getName()}";
     }
 }
 
@@ -77,7 +77,7 @@ $bill->add($box2);
 
 $box2->remove($notebook);
 
-var_dump($bill->getData());
+echo($bill->getData());
 
 
 

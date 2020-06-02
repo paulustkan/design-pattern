@@ -1,25 +1,25 @@
-## Link references
+# Link references
 
-https://refactoring.guru/
-https://regexr.com/
-https://regexone.com/
+- https://refactoring.guru/
+- https://regexr.com/
+- https://regexone.com/
 
-## Design pattern
+# Design pattern
 
-# Composite
+## Composite
 - Get sum of all items in recursion tree
 - Use abstract class
 - Delegate the work to its sub-elements
 - Applicability: create form element
 
-# Decorator
+## Decorator
 - Add new behavor following an object by wrapper
 - Use interface
 - Applicability: check and remove unnecessary texts in content
 
-## Regular Expression (Javascript)
+# Regular Expression (Javascript)
 
-# A character
+## A character
 
 `[aeiou]`
 get any character that inside []
@@ -57,7 +57,7 @@ matches any whitespace character (spaces, tabs, line breaks)
 `\S`
 matches any character that is not whitespace
 
-# A position (not a character)
+## A position (not a character)
 
 `^\w`
 `^` beginning by the word
@@ -71,7 +71,7 @@ matches position that following word_you_want is not word (alphanumeric and unde
 `word_you_want\B`
 matches position that is not a word boundary
 
-# Escaped character
+## Escaped character
 
 `\t`
 tab
@@ -81,7 +81,7 @@ plus
 
 ...
 
-# Groups & References
+##  Groups & References
 
 `(abc)`
 matches words that is abc
@@ -89,7 +89,7 @@ matches words that is abc
 `(abc)+`
 matches words that is abc or abcabc, abc... (one or more abc)
 
-# Quantifiers & Alternation
+## Quantifiers & Alternation
 
 `colou?r`
 `?` matches 0 or 1 of the preceding token (will `color`, `colour`)
@@ -111,8 +111,8 @@ combines `+` and `?`, to get 1
 `b(a|e|i)d`
 `|` like a boolean OR (will get `bad`, `bed`, `bid`)
 
-# Substitution
+## Substitution
 
-# Lookaround
+## Lookaround
 
-# Flags
+## Flags

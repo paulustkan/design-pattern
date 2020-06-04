@@ -6,16 +6,21 @@
 
 # Design pattern
 
-## Composite
+## Composite (structural pattern)
 - Get sum of all items in recursion tree
 - Use abstract class
 - Delegate the work to its sub-elements
 - Applicability: create form element
 
-## Decorator
+## Decorator (structural pattern)
 - Add new behavor following an object by wrapper
 - Use interface
 - Applicability: check and remove unnecessary texts in content
+
+## Observer (behavioral pattern)
+- When subject changes state, observers will change (observers subcribed in subject)
+- Use Standard PHP Library interface SplSubject, SplObserver, class SplObjectStorage
+
 
 # Regular Expression (Javascript)
 

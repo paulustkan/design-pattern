@@ -6,21 +6,30 @@
 
 # Design pattern
 
-## Composite (structural pattern)
+## Creational Patterns
+
+## Structural Patterns
+
+### Composite
 - Get sum of all items in recursion tree
 - Use abstract class
 - Delegate the work to its sub-elements
 - Applicability: create form element
 
-## Decorator (structural pattern)
+### Decorator
 - Add new behavor following an object by wrapper
 - Use interface
 - Applicability: check and remove unnecessary texts in content
 
-## Observer (behavioral pattern)
+### Adapter
+- Use the Adapter class when you want to use some existing class, but its interface isn't compatible with the rest of your code.
+- Use the pattern when you want to reuse several existing subclasses that lack some common functionality that can't be added to the superclass.
+
+## Behavioral Patterns
+
+### Observer
 - When subject changes state, observers will change (observers subcribed in subject)
 - Use Standard PHP Library interface SplSubject, SplObserver, class SplObjectStorage
-
 
 # Regular Expression (Javascript)
 
@@ -36,7 +45,7 @@ get any character that without inside []
 get any character that in range g -> s
 
 `.`<br/>
-`^\n\r]`<br/>
+`[^\n\r]`<br/>
 get any character except linebreaks
 
 `\s\S]`<br/>
